@@ -19,7 +19,7 @@
 <body>
   <div id="nav">
        
-    <p class="brand" href="#">MXEF Media</p>
+    <p class="brand" href="#">MXEF Media Films</p>
 <ul id="listB">
   <li class="link"  class="nav-item"><a href="#main">Home</a></li>
     <li class="link"  class="nav-item"><a href="#gallery">Gallery</a></li>
@@ -188,10 +188,11 @@
 </a>
 <a href="compressed/corporate/IMG_6954 (1).jpg" class="image imageOnly corporate">
   <img  class="imageSize"  src="compressed/corporate/IMG_6954 (1).jpg" alt="">
-<a href="compressed/corporate/mxefBl.jpg" class="image imageOnly corporate">
+</a>
+<a href="compressed/mxefBl.jpg" class="image imageOnly corporate">
   <img  class="imageSize"  src="compressed/mxefBl.jpg" alt="">
 </a>
-<a href="compressed/corporate/mxefBl2.jpg" class="image imageOnly corporate">
+<a href="compressed/mxefBl2.jpg" class="image imageOnly corporate">
   <img  class="imageSize"  src="compressed/mxefBl2.jpg" alt="">
 </a>
     </div>
