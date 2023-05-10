@@ -556,7 +556,7 @@ color: #fff;
 
 #pricing li{
   text-align: left;
-  list-style:disc;
+  list-style:none;
   margin-left: 1rem;
 }
 
