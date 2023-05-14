@@ -803,7 +803,7 @@ nav ul li a{
     font-size: 20px;
     text-transform: uppercase;
   }
-  a:hover{
+ nav .link a:hover{
     color: #000;
     transition: .5s;
     padding: 3% 7%;
