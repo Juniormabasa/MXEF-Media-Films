@@ -789,6 +789,9 @@ height: 50vh;
   text-align: center;
   transition: all .5s;
 }
+nav#nav {
+    max-width: 100vw;
+}
 #listB{
   display:block;
   text-align: center;
