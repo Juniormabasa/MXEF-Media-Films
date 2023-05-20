@@ -599,6 +599,7 @@ display:block;
 position: initial;
 width: 100%;
 font-size: 15px;
+    padding:0
 }
 #zIndex .btn{
   font-size: 15px;
@@ -625,7 +626,7 @@ left:0px;
 max-width: 320px;
     left: 8%;
     top: 10%;
-
+opacity:0.78
   
 }
 #listB{
