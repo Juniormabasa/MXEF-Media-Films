@@ -856,7 +856,7 @@ left: 0;
   padding: 20px;
   background-color: #454545c7;
   color: #f0f0f0;
-  border-radius: 10px;
+  border-radius: 2.3px;
   flex-basis: 30%;
   margin-bottom: 20px;
 }
@@ -900,7 +900,7 @@ left: 0;
     font-weight: bold;
     color: black;
       padding: 0 2%;
-      border-radius: 10px;
+      border-radius: 2.3px;
       background-color:white;
  box-shadow:  : 0 3px 5px rgba(0, 0, .3);
 
