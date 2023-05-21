@@ -842,9 +842,11 @@ left: 0;
 .toggle-button {
   cursor: pointer;
   font-weight: bold;
-  color: #000;
+  color: black;
     padding: 0 2%;
-      background-color:#f0f0f0
+      background-color:#f0f0f0;
+    box-shadow:  : 0 3px 5px rgba(0, 0, .3);
+
 }
 
 .package {
@@ -894,10 +896,12 @@ left: 0;
     margin-top: 10px;
     cursor: pointer;
     font-weight: bold;
-    color: #000;
+    color: black;
       padding: 0 2%;
       background-color:#f0f0f0
-  }
+ box-shadow:  : 0 3px 5px rgba(0, 0, .3);
+
+    }
 }
    @media only screen and (min-width: 601px) {
   .toggle-button {
