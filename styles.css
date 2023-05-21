@@ -842,7 +842,7 @@ left: 0;
 .toggle-button {
   cursor: pointer;
   font-weight: bold;
-  color: #CFFF8D;
+  color: #000;
     padding: 0 2%;
       background-color:#f0f0f0
 }
@@ -894,7 +894,7 @@ left: 0;
     margin-top: 10px;
     cursor: pointer;
     font-weight: bold;
-    color: #CFFF8D;
+    color: #000;
       padding: 0 2%;
       background-color:#f0f0f0
   }
