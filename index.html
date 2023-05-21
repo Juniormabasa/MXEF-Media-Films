@@ -456,7 +456,22 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
 
-
+document.addEventListener("DOMContentLoaded", function() {
+      var buttons = document.getElementsByClassName("toggle-button");
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener("click", function() {
+          var details = this.previousElementSibling;
+          var computedStyle = window.getComputedStyle(details);
+          if (computedStyle.display === "none") {
+            details.style.display = "block";
+            this.textContent = "Hide Details";
+          } else {
+            details.style.display = "none";
+            this.textContent = "Show Details";
+          }
+        });
+      }
+    });
   $(document).ready(function(){
 
     // imagebox
