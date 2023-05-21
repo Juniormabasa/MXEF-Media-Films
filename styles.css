@@ -800,9 +800,7 @@ background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   transition: all .5s;
 }
-#main, nav, #zIndex, #gallery, .pricing, #contactPage, footer {
-  min-width: 100%;
-}
+
 
 
 
