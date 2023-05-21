@@ -429,7 +429,7 @@
          <ion-icon name="mail-outline" class="emailIcon"></ion-icon>
        </button>
      </form>
-     <a  class="btn emailBtn wappBtn contactBtn2" href="https://wa.me/+27693870011?text=Hello" target="_blank"><ion-icon class="emailIcon" name="logo-whatsapp"></ion-icon></a>
+     <a rel="noopener" class="btn emailBtn wappBtn contactBtn2" href="https://wa.me/+27693870011?text=Hello" target="_blank"><ion-icon class="emailIcon" name="logo-whatsapp"></ion-icon></a>
    </div>
   </div>
 </div>
@@ -439,10 +439,10 @@
 </body>
 <footer>
   <p>©2023 MXEF Media Films. All rights reserved.</p>
-  <a href="https://facebook.com/mxefan.tshepudya" target="_blank">
+  <a rel="noopener" href="https://facebook.com/mxefan.tshepudya" target="_blank">
     <ion-icon class="footerIcon" name="logo-facebook"></ion-icon>
   </a>
-  <a href="https://instagram.com/mxef_media_films" target="_blank">
+  <a rel="noopener" href="https://instagram.com/mxef_media_films" target="_blank">
     <ion-icon class="footerIcon" name="logo-instagram"></ion-icon>
   </a>
 </footer>
@@ -455,22 +455,8 @@
 <!-- magnific popup -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
- document.addEventListener("DOMContentLoaded", function() {
-      var buttons = document.getElementsByClassName("toggle-button");
-      for (var i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener("click", function() {
-          var details = this.previousElementSibling;
-          var computedStyle = window.getComputedStyle(details);
-          if (computedStyle.display === "none") {
-            details.style.display = "block";
-            this.textContent = "Hide Details";
-          } else {
-            details.style.display = "none";
-            this.textContent = "Show Details";
-          }
-        });
-      }
-    });
+
+
   $(document).ready(function(){
 
     // imagebox
@@ -488,40 +474,7 @@
     
     
   });
-
-// // Get the pricing element
-// const pricing = document.getElementById("pricing");
-
-// // Function to check if the element is in the viewport
-// function isInViewport(element) {
-//   const rect = element.getBoundingClientRect();
-//   return (
-//     rect.top >= 0 &&
-//     rect.left >= 0 &&
-//     rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-//     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-//   );
-// }
-
-// // Function to add and remove the animation class if the element is in the viewport
-// function animateIfVisible() {
-//   if (isInViewport(pricing)) {
-//     pricing.classList.add("animate");
-//     pricing.style.opacity = 1;
-//     setTimeout(() => {
-//       pricing.classList.remove("animate");
-//     }, 1700); // Remove the class after 0.75 seconds (the duration of the animation)
-//     document.removeEventListener("scroll", animateIfVisible);
-//   }
-// }
-
-
-// // Set the initial opacity of the pricing element to 0
-// pricing.style.opacity = 0;
-
-// // Call the function on page load and scroll
-// document.addEventListener("DOMContentLoaded", animateIfVisible);
-// document.addEventListener("scroll", animateIfVisible);
+  
 
 const gallery = document.getElementById("gallery");
 const navbar= document.getElementById("nav");
