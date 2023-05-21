@@ -300,9 +300,7 @@ width: 90%;
   opacity: 0.8;
   text-align: center;
 }
-.package h3{
-  color: #5F8D4E;
-}
+
  #contactPage{
   padding: 2% 5%;
 
@@ -837,13 +835,14 @@ left: 0;
 .toggle-button {
   cursor: pointer;
   font-weight: bold;
-  color: #5F8D4E;
+  color: #CFFF8D;
 }
 
 .package {
   text-align: center;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #454545c7;
+  color: #f0f0f0;
   border-radius: 10px;
   flex-basis: 30%;
   margin-bottom: 20px;
@@ -885,11 +884,14 @@ left: 0;
     margin-top: 10px;
     cursor: pointer;
     font-weight: bold;
-    color: #5F8D4E;
+    color: #CFFF8D;
   }
 }
    @media only screen and (min-width: 601px) {
   .toggle-button {
     display: none;
   }
+}
+.package h3{
+  color: #CFFF8D;
 }
