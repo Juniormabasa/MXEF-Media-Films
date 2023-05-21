@@ -679,7 +679,7 @@ opacity:0.78
 }
 
 .twoImgs{
-  margin-left:3%;
+  margin-left:0;
   display:flex;
   width: 100%;
 }
