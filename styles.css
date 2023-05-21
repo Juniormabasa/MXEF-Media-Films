@@ -843,6 +843,8 @@ left: 0;
   cursor: pointer;
   font-weight: bold;
   color: #CFFF8D;
+    padding: 0 2%;
+      background-color:#f0f0f0
 }
 
 .package {
@@ -893,6 +895,8 @@ left: 0;
     cursor: pointer;
     font-weight: bold;
     color: #CFFF8D;
+      padding: 0 2%;
+      background-color:#f0f0f0
   }
 }
    @media only screen and (min-width: 601px) {
