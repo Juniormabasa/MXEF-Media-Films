@@ -595,8 +595,8 @@ color: #fff;
 }
   #main{display: none;}
   .ujFlat{
-    margin: 3rem 0;
-    height: 100%;
+    margin: 0;
+    height: 140%
     width: 100%;
     opacity: 0.9;
     
@@ -615,6 +615,7 @@ font-size: 15px;
 #nav{width: 100%;
   margin: 0;
   padding: 0;
+    position:sticky
   
 }
 .brand{
