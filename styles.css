@@ -789,7 +789,7 @@ FOOTER
  nav ul {
     position: absolute;
   width: 100%;
-height: 50vh;
+height: 100vh;
 backdrop-filter: blur(8px);
 -webkit-backdrop-filter:blur(8px);
 background-color: rgba(0, 0, 0, 0.5);
